@@ -9,7 +9,7 @@ export class Tvshows {
 
     async goToTvshows() {
 
-        await this.page.goto('http://localhost:3000/admin/tvshows')
+        await this.page.goto('/admin/tvshows')
 
     }
 
